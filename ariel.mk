@@ -23,8 +23,8 @@
 # Inherit device configuration
 $(call inherit-product, device/huawei/angler/lineage.mk)
 
-# Inherit some common stuff.
-$(call inherit-product, vendor/ariel/config/ariel_common.mk)
+# Inherit Ariel common stuff.
+$(call inherit-product, vendor/lineage/ariel/config/ariel_common.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := ariel_angler
