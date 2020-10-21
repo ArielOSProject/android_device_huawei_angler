@@ -16,8 +16,7 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_angler.mk \
-    $(LOCAL_DIR)/ariel.mk
+    $(LOCAL_DIR)/ariel_angler.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_angler-userdebug \
-    ariel_angler-userdebug
+    aosp_angler-userdebug
